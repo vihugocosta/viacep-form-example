@@ -1,0 +1,126 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Work Sans;
+ }
+
+body {
+  background-image: url(https://4kwallpapers.com/images/wallpapers/windows-11-stock-official-light-3840x2160-5664.jpg);
+  transition: 300ms;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 5px solid rgba(128, 128, 128, 0.733);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.377);
+  backdrop-filter: blur(10px);
+
+  button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(26, 114, 187);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+  button:hover {
+    scale: 1.10;
+    transition: 400ms;
+  }
+  input {
+    width: 500px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
+.dark-mode {
+  color: white;
+  background-image: url(https://images2.alphacoders.com/130/1305211.png);
+  transition: 300ms;
+
+  #btn-theme {
+    background-color: rgba(43, 43, 43, 0.767);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 1.5rem black;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+   }
+
+   form {
+    border: 5px solid rgb(187, 187, 187);
+   }
+   span {
+    display: flex;
+    justify-content: center;
+    color: rgba(253, 253, 253, 0.568);
+   }
+   ul {
+    border: 5px solid rgb(187, 187, 187);
+   }
+   li {
+      border: 2px solid rgb(187, 187, 187);
+   }
+}
+#btn-theme {
+  background-color: rgba(255, 255, 255, 0.767);
+  color: rgb(0, 0, 0);
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  position: fixed;
+  right: 0vh;
+  top: 0vh;
+  margin: 5px;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.473);
+ }
+#btn-reset {
+  background-color: rgb(187, 4, 4);
+ }
+#buttons {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+ }
+span {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.568);
+ }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 5px solid rgba(128, 128, 128, 0.733);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.377);
+  backdrop-filter: blur(10px);
+  margin-top: 10px;
+  width: 530px;
+  li {
+    list-style-type: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+   }
+}
+ 
